@@ -11,6 +11,22 @@
 
 <body>
 
+    <div id="generator">
+        <h1>Ticket price calculator</h1>
+
+        <form id="form" action="/action_page.php">
+            <label for="kilometers">How long is your trip?</label>
+            <input type="text" id="kilometers" name="kilometers">
+            <label for="age">How old are you?</label>
+            <input type="text" id="age" name="age">
+            <input id="calculate-btn" type="button" onclick="showInput()" value="Calculate">
+        </form>
+
+        <p>Your tickets's price:</p>
+
+        <p id="result"></p>
+    </div>
+
     <script type="text/javascript" src="./main.js"></script>
 </body>
 
