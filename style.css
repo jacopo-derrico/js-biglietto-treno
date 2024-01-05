@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 30vh;
+}
+
+#generator form {
+    display: flex;
+    gap: 40px;
+}
+
+.data-input {
+    padding: 5px 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.327));
+    font-size: 16px;
+}
+
+.km span {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+#calculate-btn {
+    padding-inline: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.price-text{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
